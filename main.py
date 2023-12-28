@@ -81,8 +81,8 @@ plt.rc('ytick', color='#FFE9CC')
 plt.xticks(range(160, 301, 10))
 
 plt.title("График зависимости температуры от высоты")
-plt.xlabel("Температура")
-plt.ylabel("Высота")
+plt.xlabel("Температура (К)")
+plt.ylabel("Высота (м)")
 plt.plot(y1, x, color="#C24124")
 
 # plt.plot(x, y1, color="blue")

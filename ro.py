@@ -79,8 +79,8 @@ plt.rc('ytick', color='#FFE9CC')
 # plt.xticks(range(160, 301, 10))
 
 plt.title("График зависимости плотности воздуха от высоты")
-plt.xlabel("Высота в мeтpax")
-plt.ylabel("Плотность воздуха в г/см^2")
+plt.xlabel("Высота (м)")
+plt.ylabel("Плотность воздуха ($\\frac{г}{см^2}$)")
 plt.plot(x, y, color="#C24124")
 
 # plt.plot(x, y1, color="blue")
